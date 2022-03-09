@@ -1,3 +1,8 @@
+PATH
+  remote: cocoapods-link-filelist
+  specs:
+    cocoapods-link-filelist (1.0.1)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -88,11 +93,13 @@ GEM
     zeitwerk (2.5.4)
 
 PLATFORMS
+  x86_64-darwin-19
   x86_64-darwin-20
   x86_64-darwin-21
 
 DEPENDENCIES
   cocoapods
+  cocoapods-link-filelist!
 
 BUNDLED WITH
    2.3.7
