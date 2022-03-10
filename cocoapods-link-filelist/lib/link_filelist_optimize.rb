@@ -79,6 +79,7 @@ module Pod
           end
 
           libraries.each do |library_name|
+            next if library_name == "stdc++" # libstdc++.dylib
             library_path = vendored_paths[library_name]
             if library_path
               vendored_files << library_path
